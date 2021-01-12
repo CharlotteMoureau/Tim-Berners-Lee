@@ -1,0 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro img {
+    border: 4px solid gray;
+    border-radius: 50%;
+}
