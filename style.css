@@ -1,8 +1,100 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    line-height: 200%;
+    background-color: #ebebeb;
+    color: gray
 }
 
-.intro img {
+.intro {
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+}
+
+.Tim {
     border: 4px solid gray;
     border-radius: 50%;
+}
+
+.nom {
+    color: #f05454;
+    font-size: 40px;
+}
+
+.who-is {
+    text-align: justify;
+}
+
+.button {
+    background-color: #f05454;;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.social {
+    width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    line-height: normal;
+    padding: 35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.social a {
+    color: gray;
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.movie {
+    width: 40%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    padding: 35px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    text-align: center;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 4; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 4; } 
+
+.description {
+    text-align: justify;
 }
