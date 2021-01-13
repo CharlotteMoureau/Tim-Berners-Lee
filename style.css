@@ -10,6 +10,7 @@ body {
     width: 40%;
     background-color: white;
     text-align: center;
+    font-size: 24px;
     border-radius: 8px;
     margin: 35px auto 35px auto;
     padding: 35px;
@@ -20,9 +21,14 @@ body {
     border-radius: 50%;
 }
 
-.nom {
+h1 {
     color: #f05454;
     font-size: 40px;
+    font-weight: 800;
+}
+
+.sub {
+    font-size: 31px;
 }
 
 .who-is {
@@ -52,6 +58,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 20px 20px 20px 20px;
 }
 
 li {
@@ -79,14 +86,18 @@ li {
     padding: 35px;
 }
 
+mark {
+    background-color: lightgray;
+    color: inherit;
+}
+
 .movies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 20px;
-    text-align: center;
-    }
+}
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 4; }
