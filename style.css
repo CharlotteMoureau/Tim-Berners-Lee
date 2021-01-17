@@ -1,19 +1,30 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 21px;
-    line-height: 200%;
+    line-height: 175%;
+    font-size: 150%;
     background-color: #ebebeb;
     color: gray
+}
+
+@media (min-width: 360px) and (max-width: 812px) {
+    body {
+      font-size: small;
+    }
 }
 
 .intro {
     width: 40%;
     background-color: white;
     text-align: center;
-    font-size: 24px;
     border-radius: 8px;
-    margin: 35px auto 35px auto;
+    margin: 2em auto 2em auto;
     padding: 35px;
+}
+@media (min-width: 360px) and (max-width: 812px) {
+    .intro {
+        font-size: small;
+        width: 80%;
+    }
 }
 
 .Tim {
@@ -23,37 +34,45 @@ body {
 
 h1 {
     color: #f05454;
-    font-size: 40px;
+    font-size: 175%;
     font-weight: 800;
 }
 
 .sub {
-    font-size: 31px;
+    font-size: 125%;
 }
 
 .who-is {
     text-align: justify;
 }
 
-.button {
+.link {
     background-color: #f05454;;
     border: none;
     color: white;
     padding: 16px 32px;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 110%;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .social {
     width: 40%;
     background-color: white;
     border-radius: 8px;
-    margin: 35px auto 35px auto;
+    margin: 2em auto 2em auto;
     text-align: center;
     line-height: normal;
     padding: 35px;
+}
+
+@media (min-width: 360px) and (max-width: 812px) {
+    .social {
+        font-size: small;
+        width: 80%;
+    }
 }
 
 ul {
@@ -74,16 +93,24 @@ li {
 }
 
 .fab {
-    font-size: 25px;
+    font-size: 150%;
 }
 
 .movie {
     width: 40%;
     background-color: white;
     border-radius: 8px;
-    margin: 35px auto 35px auto;
+    margin: 2em auto 2em auto;
     text-align: center;
+    font-size: 105%;
     padding: 35px;
+}
+
+@media (min-width: 360px) and (max-width: 812px) {
+    .movie {
+        font-size: small;
+        width: 80%;
+    }
 }
 
 mark {
@@ -95,8 +122,7 @@ mark {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 20px;
+    grid-column-gap: 5%;
 }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
