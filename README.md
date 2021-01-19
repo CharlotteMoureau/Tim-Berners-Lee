@@ -6,9 +6,12 @@ This was a solo project carried out on the 12th of January 2021 as part of the B
 
 - [ ] Maka a page about Sir Tim Berners-Lee
 - [ ] Understand the principles of *HTML* and *CSS*
+- [ ] Understand how to deploy a Github page
 
 ## The end result expected was:
 
-![](goal-css.png)
+![](Images/goal-css.png)
+
+(As a bonus we could try to make our webiste responsive)
 
 ### [See my attempt here!](https://charlottemoureau.github.io/Tim-Berners-Lee/)
